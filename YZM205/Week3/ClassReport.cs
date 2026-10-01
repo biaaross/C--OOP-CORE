@@ -33,7 +33,7 @@
         {
             for (int i = 0; i < counter; i++)
             {
-                Console.WriteLine($"Öğrenci Adı: {students[i].studentName} {students[i].studentSurname}\n" +
+                Console.WriteLine($"Öğrenci Adi: {students[i].studentName} {students[i].studentSurname}\n" +
                     $"Vize Notu: {students[i].midtermScore}\n" +
                     $"Final Notu: {students[i].finalScore}\n" +
                     $"Harf Notu: {students[i].NoteCalculator()}\n" +
